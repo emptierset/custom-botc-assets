@@ -1,0 +1,17 @@
+[
+  {
+    "id": "{}",
+    "image": "https://github.com/AWConant/townsquare-assets/blob/main/LSE/icon/{}.png?raw=true",
+    "edition": "custom",
+    "firstNight": {},
+    "firstNightReminder": "{}",
+    "otherNight": {},
+    "otherNightReminder": "{}",
+    "reminders": [{}],
+    "remindersGlobal": [{}],
+    "setup": {},
+    "name": "{}",
+    "team": "{}",
+    "ability": ""
+  }
+]
