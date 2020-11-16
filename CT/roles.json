@@ -110,7 +110,7 @@
   "firstNight": 0,
   "firstNightReminder": "",
   "otherNight": 0,
-  "otherNightReminder": "",
+  "otherNightReminder": "If the player with \"Nominated\" was executed, place \"Drunk\" next to the Speculator and a nearest alive Evil player.",
   "reminders": ["Nominated","Drunk", "Nominated","Drunk"],
   "remindersGlobal": [],
   "setup": 0,
