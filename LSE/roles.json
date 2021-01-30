@@ -9,7 +9,7 @@
   "image": "https://github.com/AWConant/custom-botc-assets/blob/main/LSE/icon/broker.png?raw=true",
   "edition": "custom",
   "firstNight": 0,
-  "firstNightReminder": "During Demon info, show the Demon three in-play characters in addition to their normal bluffs.",
+  "firstNightReminder": "During Demon info, show the Demon three in-play characters instead of their normal bluffs.",
   "otherNight": 0,
   "otherNightReminder": "",
   "reminders": [],
@@ -17,7 +17,7 @@
   "setup": 0,
   "name": "Broker",
   "team": "townsfolk",
-  "ability": "The Demon receives an additional set of bluffs, but they are in-play characters. They do not know which set is which."
+  "ability": "The Demon's bluffs are in-play characters."
 },
 {
   "id": "tattletale",
@@ -26,13 +26,13 @@
   "firstNight": 6,
   "firstNightReminder": "👁 Show the Tattletale two character tokens, one in-play and one not-in-play. (zzz)",
   "otherNight": 0,
-  "otherNightReminder": "？ If the Tattletale was killed since dawn: ？If the Demon didn't kill them, the Tattle is drunk. ◯ 👁  Show the Tattletale the character token with the \"In-play\" marker. (zzz)",
-  "reminders": ["Whisper Tonight", "Not-in-play", "In-play", "Drunk"],
+  "otherNightReminder": "",
+  "reminders": ["In-play", "Not-in-play"],
   "remindersGlobal": [],
   "setup": 0,
   "name": "Tattletale",
   "team": "townsfolk",
-  "ability": "You start knowing 2 characters; exactly 1 is in play. If you die, you learn which. If the Demon didn't kill you, you are drunk."
+  "ability": "You start knowing 2 characters, exactly 1 of which is in play."
 },
 {
   "id": "postmaster",
@@ -86,13 +86,13 @@
   "firstNight": 0,
   "firstNightReminder": "",
   "otherNight": 9,
-  "otherNightReminder": "👁 The Understudy points to a player. (zzz) Tonight, if that player dies, the Understudy dies instead ◯. (zzz) 👁 Wake the chosen player. Show the \"This player selected you\" card, then the Understudy token, then point to the Understudy player. (zzz)",
+  "otherNightReminder": "👁 The Understudy points to a player. (zzz) Tonight, if that player dies, the Understudy dies instead ◯. (zzz) 👁 Wake the chosen player. Show the \"This player selected you\" card, then the Understudy token. (zzz)",
   "reminders": ["Understudied", "Dead"],
   "remindersGlobal": [],
   "setup": 0,
   "name": "Understudy",
   "team": "townsfolk",
-  "ability": "Each night*, choose a player: if they die tonight, you die instead & they learn this."
+  "ability": "Each night*, choose a player: if they die tonight, you die instead & they learn that they were protected."
 },
 {
   "id": "thespian",
@@ -132,7 +132,7 @@
   "firstNightReminder": "",
   "otherNight": 10,
   "otherNightReminder": "👁 The Matchmaker points at 2 players. (zzz) ◯ At the second night order entry for the Matchmaker, if the players marked \"Matchmade\" differ in alignment and are both alive, one of them dies.",
-  "reminders": ["Dead", "Matchmade"],
+  "reminders": ["Matchmade", "Dead"],
   "remindersGlobal": [],
   "setup": 0,
   "name": "Matchmaker",
@@ -192,7 +192,7 @@
   "firstNightReminder": "",
   "otherNight": 4,
   "otherNightReminder": "︖ If the Lightning Rod voted for all of today's nominations of alive players (at least 1): place the \"Safe\" markers. ◯",
-  "reminders": ["Didn't Vote All", "Safe", "Voted All"],
+  "reminders": ["Voted All", "Didn't Vote All", "Safe"],
   "remindersGlobal": [],
   "setup": 0,
   "name": "Lightning Rod",
@@ -208,7 +208,7 @@
   "otherNight": 12,
   "otherNightReminder": "",
   "reminders": [],
-  "remindersGlobal": ["Snakebite", "Chosen", "Dead"],
+  "remindersGlobal": ["Chosen", "Snakebite", "Dead"],
   "setup": 1,
   "name": "Snakebite",
   "team": "outsider",
@@ -227,7 +227,7 @@
   "setup": 0,
   "name": "Rabble-rouser",
   "team": "outsider",
-  "ability": "If a player would choose one of your neighbors with their ability, they might choose you instead."
+  "ability": "If a player would choose one of your alive neighbors with their ability, they might choose you instead."
 },
 {
   "id": "curator",
@@ -236,7 +236,7 @@
   "firstNight": 0,
   "firstNightReminder": "",
   "otherNight": 24,
-  "otherNightReminder": "？If the Curator died tonight: 👁 Wake the Demon. Show the \"This character selected you\" card, then Curator token. The Demon either shows a \"no\" head signal or points to a non-Demon character on their sheet and a player. (zzz) If they chose a player and a character: Replace that player's character token with the chosen character token. 👁 Wake that player. Show the \"You are\" card, then that player's new character token, then the hand sign (thumb-up \"good\", thumb-down \"evil\") for the player's current alignment. (zzz)",
+  "otherNightReminder": "？If the Curator is marked with "Change Tonight": 👁 Wake the Demon. Show the \"This character selected you\" card, then Curator token. The Demon either shows a \"no\" head signal or points to a non-Demon character on their sheet and a player. (zzz) If they chose a player and a character: Replace that player's character token with the chosen character token. 👁 Wake that player. Show the \"You are\" card, then that player's new character token, then the hand sign (thumb-up \"good\", thumb-down \"evil\") for the player's current alignment. (zzz)",
   "reminders": ["Change Tonight"],
   "remindersGlobal": [],
   "setup": 0,
@@ -357,12 +357,12 @@
   "firstNightReminder": "",
   "otherNight": 16,
   "otherNightReminder": "👁 The Rex points to a player. (zzz) The chosen player dies. ◯",
-  "reminders": ["Dead", "Poisoned"],
+  "reminders": ["Poisoned", "Dead"],
   "remindersGlobal": [],
   "setup": 0,
   "name": "Rex",
   "team": "demon",
-  "ability": "Each night*, choose a player: they die. You poison your nominators (if Townsfolk) & 1 of their neighbors (if Townsfolk)."
+  "ability": "Each night*, choose a player: they die. You poison your nominators (if Townsfolk) & 1 of their Townsfolk neighbors."
 },
 {
   "id": "veni_vidi_vici",
