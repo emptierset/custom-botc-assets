@@ -1,7 +1,8 @@
 [{
   "id": "_meta",
-  "name": "Wind of Whispers",
-  "author": "Kisho"
+  "name": "Lies, Spies, & Eyes",
+  "author": "emptyset",
+  "logo": "https://raw.githubusercontent.com/AWConant/custom-botc-assets/main/LSE/logo.png"
 },
 {
   "id": "sleuth",
@@ -161,7 +162,7 @@
   "firstNightReminder": "",
   "otherNight": 0,
   "otherNightReminder": "",
-  "reminders": ["Drunk", "No ability"],
+  "reminders": ["No ability", "Drunk"],
   "remindersGlobal": [],
   "setup": 0,
   "name": "Spellbinder",
@@ -326,7 +327,7 @@
   "firstNightReminder": "",
   "otherNight": 4,
   "otherNightReminder": "👁 Azazel points to a player. If they target themselves they die then show them their new character if they spoke to 1 player today. (zzz) Then wake the other player and show them that they are now Azazel. Otherwise, the chosen player dies. ◯",
-  "reminders": ["Dead", "Evil", "Whispered"],
+  "reminders": ["Dead", "Whispered", "Evil"],
   "remindersGlobal": [],
   "setup": 0,
   "name": "Azazel",
@@ -349,17 +350,17 @@
   "ability": "Each night*, each good player you spoke privately to today dies. If you didn't speak privately today, you win."
 },
 {
-  "id": "the_fallen",
-  "image": "https://github.com/AWConant/custom-botc-assets/blob/main/WOW/icon/the_fallen.png?raw=true",
+  "id": "fallen",
+  "image": "https://github.com/AWConant/custom-botc-assets/blob/main/WOW/icon/fallen.png?raw=true",
   "edition": "custom",
   "firstNight": 0,
   "firstNightReminder": "",
-  "otherNight": 6,
+  "otherNight": 0,
   "otherNightReminder": "👁 The Fallen points to a player. (zzz) The chosen player dies. ◯︖ If The Fallen spoke to a player privately, 👁 wake that player. Show the \"You are\" card, then the hand sign thumb-down \"evil\". (zzz) ◯",
-  "reminders": ["Dead", "Evil", "Whispered"],
+  "reminders": ["Dead", "Whispered", "Evil"],
   "remindersGlobal": [],
   "setup": 1,
-  "name": "The Fallen",
+  "name": "Fallen",
   "team": "demon",
   "ability": "Each night*, choose a player: they die. Each night*, the first player you spoke privately to today becomes evil. [No minions]"
 },
