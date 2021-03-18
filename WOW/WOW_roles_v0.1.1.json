@@ -1,7 +1,8 @@
 [{
   "id": "_meta",
   "name": "Wind of Whispers",
-  "author": "Kisho"
+  "author": "Kisho",
+  "logo": "https://raw.githubusercontent.com/AWConant/custom-botc-assets/main/WOW/logo.png"
 },
 {
   "id": "sleuth",
