@@ -1,0 +1,496 @@
+[
+    {
+        "id": "_meta",
+        "name": "Wind of Whispers",
+        "author": "Kisho",
+        "logo": "https://raw.githubusercontent.com/AWConant/custom-botc-assets/main/WOW/logo.png"
+    },
+    {
+        "id": "sleuth",
+        "image": "https://github.com/AWConant/custom-botc-assets/blob/main/WOW/icon/sleuth.png?raw=true",
+        "edition": "custom",
+        "firstNight": 16,
+        "firstNightReminder": "",
+        "otherNight": 0,
+        "otherNightReminder": "",
+        "reminders": [],
+        "remindersGlobal": [],
+        "setup": 0,
+        "name": "Sleuth",
+        "team": "townsfolk",
+        "ability": "You start knowing how many steps away a Minion is (or that zero are in play) and a Demon that is not in-play."
+    },
+    {
+        "id": "flame",
+        "image": "https://github.com/AWConant/custom-botc-assets/blob/main/WOW/icon/flame.png?raw=true",
+        "edition": "custom",
+        "firstNight": 17,
+        "firstNightReminder": "",
+        "otherNight": 26,
+        "otherNightReminder": "",
+        "reminders": [
+            "Whispered To Moth",
+            "Moth",
+            "Dead"
+        ],
+        "remindersGlobal": [],
+        "setup": 0,
+        "name": "Flame",
+        "team": "townsfolk",
+        "ability": "You start knowing a good player & their character. Each night*, if you whispered to them today, they die."
+    },
+    {
+        "id": "enchantress",
+        "image": "https://github.com/AWConant/custom-botc-assets/blob/main/WOW/icon/enchantress.png?raw=true",
+        "edition": "custom",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 0,
+        "otherNightReminder": "",
+        "reminders": [
+            "Safe",
+            "Safe"
+        ],
+        "remindersGlobal": [],
+        "setup": 0,
+        "name": "Enchantress",
+        "team": "townsfolk",
+        "ability": "Each night*, each player you whispered to today can't die tonight."
+    },
+    {
+        "id": "phantographer",
+        "image": "https://github.com/AWConant/custom-botc-assets/blob/main/WOW/icon/phantographer.png?raw=true",
+        "edition": "custom",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 33,
+        "otherNightReminder": "",
+        "reminders": [
+            "Evil Whisper",
+            "Evil Whisper",
+            "Evil Whisper",
+            "Evil Whisper",
+            "Evil Whisper",
+            "Evil Whisper",
+            "Evil Whisper"
+        ],
+        "remindersGlobal": [],
+        "setup": 0,
+        "name": "Phantographer",
+        "team": "townsfolk",
+        "ability": "Each night*, learn how many whispers today included any evil players."
+    },
+    {
+        "id": "scaredy-cat",
+        "image": "https://github.com/AWConant/custom-botc-assets/blob/main/WOW/icon/scaredy-cat.png?raw=true",
+        "edition": "custom",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 24,
+        "otherNightReminder": "",
+        "reminders": [
+            "Whispered To Evil",
+            "Dead"
+        ],
+        "remindersGlobal": [],
+        "setup": 0,
+        "name": "Scaredy-cat",
+        "team": "townsfolk",
+        "ability": "Each night*, if you whispered to an evil player today, you die, even if for some reason you could not."
+    },
+    {
+        "id": "stoic",
+        "image": "https://github.com/AWConant/custom-botc-assets/blob/main/WOW/icon/stoic.png?raw=true",
+        "edition": "custom",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 34,
+        "otherNightReminder": "",
+        "reminders": [
+            "Whispered"
+        ],
+        "remindersGlobal": [],
+        "setup": 0,
+        "name": "Stoic",
+        "team": "townsfolk",
+        "ability": "Each night*, if you didn't whisper today, learn each dead player & their characters."
+    },
+    {
+        "id": "whisperlink",
+        "image": "https://github.com/AWConant/custom-botc-assets/blob/main/WOW/icon/whisperlink.png?raw=true",
+        "edition": "custom",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 35,
+        "otherNightReminder": "",
+        "reminders": [],
+        "remindersGlobal": [],
+        "setup": 0,
+        "name": "Whisperlink",
+        "team": "townsfolk",
+        "ability": "Each night*, choose a player. They wake and pass a message to the Storyteller. You wake and receive their message."
+    },
+    {
+        "id": "auditor",
+        "image": "https://github.com/AWConant/custom-botc-assets/blob/main/WOW/icon/auditor.png?raw=true",
+        "edition": "custom",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 30,
+        "otherNightReminder": "",
+        "reminders": [],
+        "remindersGlobal": [],
+        "setup": 0,
+        "name": "Auditor",
+        "team": "townsfolk",
+        "ability": "Each night*, learn how many evil players are alive. You can't become evil."
+    },
+    {
+        "id": "mystic",
+        "image": "https://github.com/AWConant/custom-botc-assets/blob/main/WOW/icon/mystic.png?raw=true",
+        "edition": "custom",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 32,
+        "otherNightReminder": "",
+        "reminders": [
+            "Chosen"
+        ],
+        "remindersGlobal": [],
+        "setup": 0,
+        "name": "Mystic",
+        "team": "townsfolk",
+        "ability": "Each day, you may publicly choose a player you whispered to today. Tonight you learn their character."
+    },
+    {
+        "id": "informer",
+        "image": "https://github.com/AWConant/custom-botc-assets/blob/main/WOW/icon/informer.png?raw=true",
+        "edition": "custom",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 0,
+        "otherNightReminder": "",
+        "reminders": [
+            "No Ability"
+        ],
+        "remindersGlobal": [],
+        "setup": 0,
+        "name": "Informer",
+        "team": "townsfolk",
+        "ability": "Once per game, during the day, you may privately ask the Storyteller how many evil players are whispering."
+    },
+    {
+        "id": "doctor",
+        "image": "https://github.com/AWConant/custom-botc-assets/blob/main/WOW/icon/doctor.png?raw=true",
+        "edition": "custom",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 28,
+        "otherNightReminder": "",
+        "reminders": [
+            "No Ability"
+        ],
+        "remindersGlobal": [],
+        "setup": 0,
+        "name": "Doctor",
+        "team": "townsfolk",
+        "ability": "Once per game, if a player dies at night, instead they might not. If this happens, at night, you wake to learn who was saved."
+    },
+    {
+        "id": "savior",
+        "image": "https://github.com/AWConant/custom-botc-assets/blob/main/WOW/icon/savior.png?raw=true",
+        "edition": "custom",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 0,
+        "otherNightReminder": "",
+        "reminders": [
+            "Safe",
+            "Safe"
+        ],
+        "remindersGlobal": [],
+        "setup": 0,
+        "name": "Savior",
+        "team": "townsfolk",
+        "ability": "Once per game, the 1st Townsfolk(s) you whisper to can't die at night."
+    },
+    {
+        "id": "arbiter",
+        "image": "https://github.com/AWConant/custom-botc-assets/blob/main/WOW/icon/arbiter.png?raw=true",
+        "edition": "custom",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 0,
+        "otherNightReminder": "",
+        "reminders": [
+            "Safe",
+            "Safe"
+        ],
+        "remindersGlobal": [],
+        "setup": 0,
+        "name": "Arbiter",
+        "team": "townsfolk",
+        "ability": "If your neighbors don't whisper to each other, your good neighbors can't die at night."
+    },
+    {
+        "id": "babysitter",
+        "image": "https://github.com/AWConant/custom-botc-assets/blob/main/WOW/icon/babysitter.png?raw=true",
+        "edition": "custom",
+        "firstNight": 18,
+        "firstNightReminder": "",
+        "otherNight": 25,
+        "otherNightReminder": "",
+        "reminders": [
+            "Baby",
+            "Whispered To Baby",
+            "Dead"
+        ],
+        "remindersGlobal": [],
+        "setup": 0,
+        "name": "Babysitter",
+        "team": "outsider",
+        "ability": "You start knowing a player. Each night*, if you didn't whisper to that player today, you might die."
+    },
+    {
+        "id": "bartender",
+        "image": "https://github.com/AWConant/custom-botc-assets/blob/main/WOW/icon/bartender.png?raw=true",
+        "edition": "custom",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 31,
+        "otherNightReminder": "",
+        "reminders": [
+            "Drunk",
+            "Whispered To Drunk"
+        ],
+        "remindersGlobal": [],
+        "setup": 0,
+        "name": "Bartender",
+        "team": "outsider",
+        "ability": "A Townsfolk is drunk, even while you're dead. Each night*, you learn if you whispered to them today."
+    },
+    {
+        "id": "leper",
+        "image": "https://github.com/AWConant/custom-botc-assets/blob/main/WOW/icon/leper.png?raw=true",
+        "edition": "custom",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 15,
+        "otherNightReminder": "",
+        "reminders": [
+            "Whispered",
+            "Whispered",
+            "Registers Falsely",
+            "Registers Falsely"
+        ],
+        "remindersGlobal": [],
+        "setup": 0,
+        "name": "Leper",
+        "team": "outsider",
+        "ability": "Each night*, players you whispered to today might register as evil & as a Minion or Demon until tomorrow night."
+    },
+    {
+        "id": "ascetic",
+        "image": "https://github.com/AWConant/custom-botc-assets/blob/main/WOW/icon/ascetic.png?raw=true",
+        "edition": "custom",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 23,
+        "otherNightReminder": "",
+        "reminders": [
+            "Whispered",
+            "Whispered",
+            "No Ability",
+            "Dead"
+        ],
+        "remindersGlobal": [],
+        "setup": 0,
+        "name": "Ascetic",
+        "team": "outsider",
+        "ability": "Once per game, at night*, if you whispered to any players today, one of them might die."
+    },
+    {
+        "id": "puppetmaster",
+        "image": "https://github.com/AWConant/custom-botc-assets/blob/main/WOW/icon/puppetmaster.png?raw=true",
+        "edition": "custom",
+        "firstNight": 19,
+        "firstNightReminder": "",
+        "otherNight": 22,
+        "otherNightReminder": "",
+        "reminders": [
+            "Puppet",
+            "Puppet",
+            "Whispered To Puppet",
+            "Whispered To Puppet",
+            "Dead",
+            "Dead"
+        ],
+        "remindersGlobal": [],
+        "setup": 0,
+        "name": "Puppetmaster",
+        "team": "minion",
+        "ability": "Each night, you may choose 2 players. They learn you chose the other. Tomorrow they must whisper together or die that night."
+    },
+    {
+        "id": "effigy",
+        "image": "https://github.com/AWConant/custom-botc-assets/blob/main/WOW/icon/effigy.png?raw=true",
+        "edition": "custom",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 21,
+        "otherNightReminder": "",
+        "reminders": [
+            "Dead"
+        ],
+        "remindersGlobal": [],
+        "setup": 1,
+        "name": "Effigy",
+        "team": "minion",
+        "ability": "Each night*, you may choose to die. [-1 or +1 Outsider]"
+    },
+    {
+        "id": "doppelg\u00e4nger",
+        "image": "https://github.com/AWConant/custom-botc-assets/blob/main/WOW/icon/doppelg\u00e4nger.png?raw=true",
+        "edition": "custom",
+        "firstNight": 14,
+        "firstNightReminder": "",
+        "otherNight": 16,
+        "otherNightReminder": "",
+        "reminders": [
+            "Poisoned"
+        ],
+        "remindersGlobal": [],
+        "setup": 0,
+        "name": "Doppelg\u00e4nger",
+        "team": "minion",
+        "ability": "Each night, choose a player: learn their character. You may swap characters with them. If you do, they are poisoned."
+    },
+    {
+        "id": "plaguebringer",
+        "image": "https://github.com/AWConant/custom-botc-assets/blob/main/WOW/icon/plaguebringer.png?raw=true",
+        "edition": "custom",
+        "firstNight": 15,
+        "firstNightReminder": "",
+        "otherNight": 29,
+        "otherNightReminder": "",
+        "reminders": [
+            "Poisoned"
+        ],
+        "remindersGlobal": [],
+        "setup": 0,
+        "name": "Plaguebringer",
+        "team": "minion",
+        "ability": "A player starts poisoned. The poison moves when they whisper to an alive, good player. Each night, learn who has the poison."
+    },
+    {
+        "id": "azazel",
+        "image": "https://github.com/AWConant/custom-botc-assets/blob/main/WOW/icon/azazel.png?raw=true",
+        "edition": "custom",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 13,
+        "otherNightReminder": "",
+        "reminders": [
+            "Dead",
+            "Whispered",
+            "Evil",
+            "Evil",
+            "Evil",
+            "Evil",
+            "Evil"
+        ],
+        "remindersGlobal": [],
+        "setup": 0,
+        "name": "Azazel",
+        "team": "demon",
+        "ability": "If you die, swap characters with the 1st player you whispered to today & they become evil. Each night, you may choose to die."
+    },
+    {
+        "id": "seductress",
+        "image": "https://github.com/AWConant/custom-botc-assets/blob/main/WOW/icon/seductress.png?raw=true",
+        "edition": "custom",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 20,
+        "otherNightReminder": "",
+        "reminders": [
+            "Dead",
+            "Dead",
+            "Whispered",
+            "Whispered"
+        ],
+        "remindersGlobal": [],
+        "setup": 0,
+        "name": "Seductress",
+        "team": "demon",
+        "ability": "Each night*, you may choose any players you whispered to today: they die. If you didn't whisper to an alive player: you win."
+    },
+    {
+        "id": "moloch",
+        "image": "https://github.com/AWConant/custom-botc-assets/blob/main/WOW/icon/moloch.png?raw=true",
+        "edition": "custom",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 19,
+        "otherNightReminder": "",
+        "reminders": [
+            "Dead",
+            "Whispered",
+            "Whispered",
+            "Evil",
+            "Evil",
+            "Evil",
+            "Evil",
+            "Evil"
+        ],
+        "remindersGlobal": [],
+        "setup": 1,
+        "name": "Moloch",
+        "team": "demon",
+        "ability": "Each night*, choose a player: if you whispered to them today they become evil, otherwise they die. [No minions]"
+    },
+    {
+        "id": "blacktongue",
+        "image": "https://github.com/AWConant/custom-botc-assets/blob/main/WOW/icon/blacktongue.png?raw=true",
+        "edition": "custom",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 18,
+        "otherNightReminder": "",
+        "reminders": [
+            "Whispered To Snakebite",
+            "Dead",
+            "Dead",
+            "Snakebite"
+        ],
+        "remindersGlobal": [],
+        "setup": 0,
+        "name": "Blacktongue",
+        "team": "demon",
+        "ability": "Each night*, choose 2 players: the 1st dies. If you whispered today to the 2nd player you chose last night, they die."
+    },
+    {
+        "id": "puppetmaster2",
+        "image": "https://github.com/AWConant/custom-botc-assets/blob/main/WOW/icon/puppetmaster.png?raw=true",
+        "edition": "custom",
+        "firstNight": 0,
+        "firstNightReminder": "This should never be in the Grimoire, so you shouldn't be seeing this.",
+        "otherNight": 36,
+        "otherNightReminder": "This should never be in the Grimoire, so you shouldn't be seeing this.",
+        "name": "Puppetmaster",
+        "team": "minion",
+        "ability": "Not a Minion, just appearance #2 of Puppetmaster on the night order."
+    },
+    {
+        "id": "azazel2",
+        "image": "https://github.com/AWConant/custom-botc-assets/blob/main/WOW/icon/azazel.png?raw=true",
+        "edition": "custom",
+        "firstNight": 0,
+        "firstNightReminder": "This should never be in the Grimoire, so you shouldn't be seeing this.",
+        "otherNight": 17,
+        "otherNightReminder": "This should never be in the Grimoire, so you shouldn't be seeing this.",
+        "name": "Azazel",
+        "team": "demon",
+        "ability": "Not a Demon, just appearance #2 of Azazel on the night order."
+    }
+]
